@@ -279,3 +279,50 @@ footer{
 .quem-somos-top{
     margin-top: 20px;
 }
+
+@media (max-width: 600px)
+    {
+        #menu ul{
+            display: flex;
+            justify-content: center;
+            padding-top: 5px;
+            margin-bottom: 30px;
+            background-color: #2a4147;
+            height: 50px;
+            width: 100%;
+        }
+        
+        #menu ul li{
+            padding-left: 20px;
+        }
+
+        .page-links{
+            font-size: 14px;
+        }
+
+        #produtos{
+            padding-bottom: 10px;
+        }
+
+        .footer-content h2{
+            font-size: 20px;
+            margin-left: 10px;
+        }
+
+        .footer-content, p, label{
+            color: #fff;
+            line-height: 1.5em;
+            font-size: 15px;
+        }
+
+        .wpp-content{
+            margin-top: 20px;
+            margin-left: 30px;
+        }
+
+        .wpp-img{
+            width: 35px;
+            height: 35px;
+        }
+  
+    }
