@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* color: green !important; */
+    color: black;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+#cabecalho {
+    width: 100%;
+    height: 100px;
+    background-color: #FFFCF5;
+    text-align: center;
+    display: flex;
+    position: static;
+}
+
+#logo{
+    left: 0%;
+}
+
+#menu ul{
+    display: flex;
+    justify-content: end;
+    padding-top: 35px;
+}
+
+#menu ul li{
+    padding-left: 50px;
+}
+
+.page-links{
+    color: #00b1af;
+    text-shadow: 1.3px 1.3px 1px rgb(75, 75, 75);
+    font-family: 'Belanosima', sans-serif;
+    font-size: 22px;
+    height: 50px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.page-links:hover{
+    background-color: #94B7D5;
+    color: #fff;
+    transition: background-color 1s;
+    text-decoration: none;
+    border-radius: 5px;
+    text-shadow: 3px 3px 1px #363636;
+    transition: text-shadow 1.5s;
+}
+
+#logo img {
+    margin-top: 0px;
+    margin-left: 0px;
+    padding-left: 5px;
+    width: 200px;
+    height: 100px;
+}
+
+.principal {
+    background-color: #dbeeff;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.top-title, #contato{
+    color: black;
+    font-size: 36px;
+    font-family: 'Belanosima', sans-serif;
+    padding-top: 35px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-style: italic;
+    text-decoration: none;
+    text-shadow: 1.5px 1.5px 1px #557D89;
+}
+
+.top-title :hover{
+    text-shadow: 10px 10px 1px #557D89;
+    transition: text-shadow 1.5s;
+    text-decoration: none;
+}
+
+#top-subtitle{
+    color: black;
+    font-size: 25px;
+    font-family: 'Belanosima', sans-serif;
+    padding-top: 35px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-style: italic;
+    text-decoration: none;
+    text-shadow: 1.5px 1.5px 1px #557D89;
+}
+
+#top-subtitle:hover{
+    text-shadow: 10px 10px 1px #557D89;
+    transition: text-shadow 1.5s;
+}
+
+.container {
+    width: 1140px;
+    margin-bottom: 0;
+}
+
+#produtos{
+    padding-bottom: 50px;
+}
+
+#produtos h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#listadeprodutos { 
+    display: flex;
+    margin: auto;
+}
+
+.produto {
+    -webkit-box-shadow: 0px 0px 16px 1px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0px 0px 16px 1px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 0px 16px 1px rgba(0, 0, 0, 0, 04);
+    padding: 20px;
+    text-align: center;
+}
+
+.produto:hover{
+    height: 450px;
+    font-style: italic;
+    transition: font-style 1s;
+}
+
+.produto p{
+    text-decoration: none;
+}
+
+.produto h3{
+    font-size: 21px;
+    margin-top: 15px;
+    color: #3c4e58;
+    text-decoration: none;
+}
+
+.img-process{
+    width: 150px;
+    height: 200px;
+    border: solid 1px rgb(94, 94, 94);
+    width: 100%;
+}
+
+.preco {
+    font-size: 1.5rem;
+    color: rgb(81, 180, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 1px 1px 1px rgb(43, 43, 43);
+}
+
+.botao {
+    display: flex;
+    margin-top: 20px;
+    width: calc(100px-30px);
+    background-color: #326b7af6;
+    padding: 15px;
+    justify-content: center;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+}
+
+.botao:hover{
+    color: #fff;
+    text-decoration: none;
+    background-color: #2a4147;
+    transition: background-color 1s;
+}
+
+#listadeprodutos {
+    display: flex;
+    margin: auto;
+}
+
+footer{
+    background-color: #326b7af6;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 40px;
+    
+}
+
+.colunas{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 60px;
+    padding-top: 30px;
+    color: #fff;
+}
+
+.footer-content, p, label{
+    color: #fff;
+    line-height: 1.5em;
+}
+
+.topicos-footer{
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.topicos-footer:hover{
+    background-color: #2a4147;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    transition: text-shadow 1.5s;
+    text-decoration: none;
+}
+
+.wpp-content{
+    margin-top: 20px;
+}
+
+.wpp-img{
+    width: 50px;
+    height: 50px;
+}
+
+.wpp-text{
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
+    padding-left: 5px;
+}
+
+.wpp-text:hover{
+    color: green;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px black;
+}
+
+/* CSS PÁGINA FEEDBACK...*/ 
+
+
+.legend-forms{
+    font-size: 17px;
+}
+
+/* CSS PÁGINA QUEM SOMOS...*/
+
+#quem-somos{
+    padding-bottom: 50px;
+}
+
+#img-dr-nagila{
+    width: 500px;
+    height: 600px;
+    -webkit-box-shadow: 0px 0px 16px 1px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0px 0px 16px 1px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 0px 16px 1px rgba(0, 0, 0, 0, 04);
+    margin-bottom: 50px;
+    margin-top: 50px;
+    border-radius: 4px;
+}
+
+.text-phrase{
+    font-size: 25px;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left;
+    font-style: italic;
+}
+
+.text-phrase::first-letter{
+    font-size: 45px;
+}
+
+.quem-somos-top{
+    margin-top: 20px;
+}

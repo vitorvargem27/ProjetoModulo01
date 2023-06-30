@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Belanosima:wght@600&display=swap" rel="stylesheet">
+
+    <title>NMC Odontologia</title>
+    <!--Meu CSS-->
+    <link rel="stylesheet" href="style.css" />
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!--Bootstrap javascript-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!--ENTRADA COM LOGO DA LOJA-->
+    <header id="cabecalho">
+        <div class="container">
+            <div class="row">
+                <div id="logo" class="col-lg-4" style="margin-left: 0;">
+                    <a href="index.html">
+                        <img src="./IMG/logo-new.jpg
+                        " alt="logo" width="300" id="clinic-logo">
+                    </a>
+                </div>
+                <nav id="menu" class="col-lg-8">
+                    <ul>
+                        <li><a class="page-links" href="index.html">Home</a></li>
+                        <li><a class="page-links" href="quem-somos.html">Quem somos</a></li>
+                        <li><a class="page-links" href="https://api.whatsapp.com/send?phone=5511969314707&text=Ol%C3%A1,
+                            %20gostaria%20de%20tirar%20algumas%20informa%C3%A7%C3%B5es%20sobre%20os%20
+                            procedimentos%20da%20cl%C3%ADnica!!">Contato</a>
+                        </li>
+                        <li><a class="page-links" href="contato.html">Feedback</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <h1 class="top-title">Feedback</h1>
+                <form action="teste.html" method="get">
+                    <div class="form-group">
+                        <label style="color: black;"><strong> Digite seu nome :</strong></label>
+                        <input class="form-control" type="text" placeholder="Digite seu nome..." required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="assunto" style=" color: black;"><strong>Você realizou qual procedimento?</strong></label>
+                        <select class="form-control">
+                            <option value="Select">Escolha uma opção...</option>
+                            <option value="Exodontia">Exodontia</option>
+                            <option value="Raspagem">Raspagem dental</option>
+                            <option value="Restauração">Restauração dentária</option>
+                            <option value="Canal">Canal</option>
+                            <option value="Aparelho dental">Aparelho dental</option>
+                            <option value="Clareamento">Clareamento</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="mensagem" style="color: black;"><strong> Digite abaixo uma mensagem de feedback sobre nossa clínica : </strong></label>
+                        <textarea class="form-control" id="mensagem" rows="4" placeholder="Escreva aqui..."></textarea>
+                    </div>
+
+                    <input class="btn btn-primary" id="btn-feedback" type="button" value="Enviar" 
+                            style="margin-bottom: 50px;
+                            background-color: #326b7af6;
+                            border: 1px solid #326b7af6;" >
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!--RODAPÉ NMC ODONTOLOGIA-->
+    <footer id="rodape">
+        <div class="footer-colunas">
+            <ul class="colunas">
+                <li class="footer-content">
+                    <h2>Endereço</h2>
+                    <p>Rua Piraí do Sul, 275<br>
+                        Bairro Bom Clima | Cidade Guarulhos -SP
+                    </p>
+                </li>
+                <li class="footer-content">
+                    <h2>Links</h2>
+                    <a class="topicos-footer" href="#">Voltar ao início</a> <br>
+                    <a class="topicos-footer" href="contato.html">Feedback</a><br>
+                    <a class="topicos-footer" href="https://www.google.com.br/maps/place/R.+Pira%C3%AD+do+Sul,+275+-+Vila+Florida,
+                        +Guarulhos+-+SP,+07196-050/@-23.4546764,-46.5140142,17z/data=!3m1!4b1!4m6!
+                        3m5!1s0x94ce8ab16216c0fd:0xc2013747a5a078a!8m2!3d-23.4546813!4d-46.5114393!
+                        16s%2Fg%2F11c1chnd7r?entry=ttu">Localização</a>
+                </li>
+                <li class="wpp-content">
+                    <div class="wpp-contact">
+                        <img src="IMG/WhatsApp.svg.webp" class="wpp-img">
+                        <a href="https://api.whatsapp.com/send?phone=5511969314707&text=Ol%C3%A1,
+                        %20gostaria%20de%20tirar%20algumas%20informa%C3%A7%C3%B5es%20sobre%20os
+                        %20procedimentos%20da%20cl%C3%ADnica!!" class="wpp-text">
+                            Whatsapp
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+
+
+
+</html>
